@@ -4,10 +4,11 @@ Author: R. Jacob Vogelstein <br>
 Updated by Noah J. Cowan, March 1, 2010 <br>
 Updated by [Brian D. Weitzner](https://github.com/weitzner), April 29, 2014 as available at [GitHub](https://github.com/weitzner/jhu-thesis-template) and as an [Overleaf template](https://www.overleaf.com/latex/templates/johns-hopkins-phd-dissertation-template/jmdrczzbrhyx#.Vw7LVhMrL64) as uploaded by Karla Hernandez (see how to support PDF/A files at the end of this README)<br>
 Updated by [John Muschelli](https://github.com/muschellij2), January 29, 2016 and now uses a makefile as available [here](https://github.com/muschellij2/PhD_Thesis) <br>
-Updated by [Leonardo Collado Torres](https://github.com/lcolladotor) on April 13, 2016 as available at [GitHub](https://github.com/lcolladotor/jhu-thesis-template) or as an [Overleaf template](https://www.overleaf.com/latex/templates/johns-hopkins-university-unofficial-thesis-template/tqdzgmrxgbtg#.Vw-NrRMrJuU)
+Updated by [Leonardo Collado Torres](https://github.com/lcolladotor) on April 13, 2016 as available at [GitHub](https://github.com/lcolladotor/jhu-thesis-template) or as an [Overleaf template](https://www.overleaf.com/latex/templates/johns-hopkins-university-unofficial-thesis-template/tqdzgmrxgbtg#.Vw-NrRMrJuU)<br>
+Updated by [Ben Ackerman](https://github.com/benjamin-ackerman) on July 17, 2020 as available on [GitHub](https://github.com/benjamin-ackerman/jhu-thesis-template) to conform to the latest Sheridan Libraries formatting requirements.
 
 This archive is intended to simplify the process of creating a thesis
-in LaTeX that complies with the JHU formatting requirements found [here](http://guides.library.jhu.edu/etd/formatting).
+in LaTeX that complies with the JHU formatting requirements found [here](https://www.library.jhu.edu/library-services/electronic-theses-dissertations/formatting-requirements/).
 
 # Makefile version
 

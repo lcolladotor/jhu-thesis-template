@@ -3,9 +3,11 @@
 % Updated on May 18, 2014 by Brian Weitzner at https://github.com/weitzner/jhu-thesis-template
 % Updated on January 29, 2016 by John Muschelli at https://github.com/muschellij2/PhD_Thesis
 % Updated on April 13, 2016 by Leonardo Collado Torres and available at https://github.com/lcolladotor/jhu-thesis-template. View (read-only) at Overleaf here https://www.overleaf.com/read/tqdzgmrxgbtg
+% Updated on July 17, 2020 by Ben Ackerman and available at https://github.com/benjamin-ackerman/jhu-thesis-template
+
 
 %% It's your responsability to make sure that your thesis complies with 
-%% JHU's formatting rules available at http://guides.library.jhu.edu/etd/formatting
+%% JHU's formatting rules available at https://www.library.jhu.edu/library-services/electronic-theses-dissertations/formatting-requirements/
 
 \documentclass[12pt]{report}
 
@@ -175,18 +177,18 @@ natbib = true
 \thispagestyle{empty}
 \begin{center}
 \vspace*{.25in}
-{\bf\LARGE{ JHU Thesis Template title }}\\ % change it accordingly!
+{\bf\LARGE{ JHU THESIS TEMPLATE TITLE }}\\ % change it accordingly, title must be in ALL CAPS!
 \vspace*{.75in}
 {\bf by} \\*[18pt]
 \vspace*{.2in}
 {\bf Your Name}\\ % change it accordingly!
 \vspace*{1in}
-{\bf A dissertation submitted to The Johns Hopkins University\\
+{\bf A dissertation submitted to Johns Hopkins University\\
 in conformity with the requirements for the degree of\\
 Doctor of Philosophy }\\
 \vspace*{.75in}
 {\bf Baltimore, Maryland} \\
-{\bf June, 2016} \\     % change it accordingly!
+{\bf June, 2016} \\     % change it accordingly! Put month of submission, not of thesis defense (if different)
 \vspace*{.5in}
 \begin{small}
 {\bf \copyright{ }2016 by Your Name} \\ % change the year if needed!
@@ -253,7 +255,8 @@ Doctor of Philosophy }\\
 
 % CV PDF file downloaded from the moderncv template available at Overleaf
 % https://www.overleaf.com/latex/templates/modern-cv-and-cover-letter-2015-version/sttkgjcysttn#.Vw6PFRMrL65
-\includepdf[pages={-}]{moderncv-2015.pdf}
+\addcontentsline{toc}{chapter}{Curriculum Vitae} % CV must be in table of contents
+\includepdf[pages={-}, pagecommand={}]{moderncv-2015.pdf} %continue page numbering through CV
 
 
 \end{document}
